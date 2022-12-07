@@ -1,0 +1,86 @@
+html {
+   height: 100%;
+ }
+ body {
+   margin:0;
+   padding:0;
+   font-family: sans-serif;
+   background: linear-gradient(#AA336A, #243b55);
+ }
+ 
+ .login-box {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   color:white;
+   padding: 40px;
+   transform: translate(-50%, -50%);
+   background: rgba(0,0,0,.5);
+   box-sizing: border-box;
+   box-shadow: 0 15px 25px rgba(0,0,0,.6);
+   border-radius: 10px;
+ }
+ 
+ .login-box h2 {
+   margin: 0 0 30px;
+   padding: 0;
+   color: #fff;
+   text-align: center;
+ }
+
+ .login-box ol li{
+   font-size:1.3rem;
+ }
+
+ .login-box ol li a{
+   font-size:1.3rem;
+   color:white;
+ }
+ 
+ .login-box .user-box {
+   position: relative;
+ }
+ 
+ .login-box form a {
+   position: relative;
+   display: inline-block;
+   padding: 10px 20px;
+   color: #AA336A;
+   font-size: 16px;
+   text-decoration: none;
+   text-transform: uppercase;
+   overflow: hidden;
+   transition: .5s;
+   margin-top: 40px;
+   letter-spacing: 4px
+ }
+ 
+ .login-box a:hover {
+   background: #AA336A;
+   color: #fff;
+   border-radius: 5px;
+   box-shadow: 0 0 5px #AA336A,
+               0 0 25px #AA336A,
+               0 0 50px #AA336A,
+               0 0 100px #AA336A;
+ }
+ 
+ 
+ .login-box form button{
+ background: rgba(0,0,0,.5);
+ color:white;
+ cursor:pointer;
+ padding:5px;
+ border-radius: 5px;
+ }
+ 
+ .login-box form button:hover{
+    background: #AA336A;
+   color: #fff;
+   border-radius: 5px;
+   box-shadow: 0 0 5px #AA336A,
+               0 0 25px #AA336A,
+               0 0 50px #AA336A,
+               0 0 100px #AA336A;
+ }
+ 

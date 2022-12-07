@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link href="/static/links.css" rel="stylesheet">
+</head>
+<body>
+   <div class="login-box">
+      {% if error %}
+      <h2>It seems you are not connected to the internet please check your connection and refresh the page.</h2>
+      {% else %}
+      <h2>List of Links on {{webpage}}</h2>
+      <ol>
+         {% for link in links %}
+         <li><a href="{{link}}">{{link}}</a></li>
+         {% endfor %}
+      </ol>
+      {% endif %}
+   </div>
+</body>
+</html>
